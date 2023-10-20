@@ -1,0 +1,161 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            margin: 0;
+            padding:0;
+            /*text-align: center;*/
+            padding-left: 18%;
+        }
+
+        #inscription{
+            background-color: #f0f0f0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            margin: 20px;
+            padding: 20px;
+           /* text-align: center;*/
+            display: inline-block;
+            width: 30%;
+            height: 450px;
+            padding-left: 5%;
+            margin-top: 85px;
+        }
+
+        #inscription h4{
+            color: gray;
+        }
+
+         #connexion {
+            background-color: #f0f0f0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            margin: 20px;
+            padding: 20px;
+            /*text-align: center;*/
+            display: inline-block;
+            width: 30%;
+            height: 450px;
+            
+        }
+
+        .containLine{
+            display: flex;
+            margin-top: 7%;
+        }
+
+        .divleft, .divright{
+            height: 1px;
+             background-color: gray;
+            width: 100%;
+        }
+        .ou{
+                margin-top: -11px;
+        }
+
+        .tel input{
+            width: 90%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-right: 67px;
+        }
+        .tel label{
+          margin-left: 33%;
+        }
+
+        .tel{
+            margin-top: 4%;
+        }
+        
+
+        h2 {
+            margin: 0;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        .container_name{
+            display: flex;
+            margin-top: 55px;
+        }
+        .container_connect{
+            display: flex;
+            margin-top: 25px;
+        }
+
+        label {
+            /*display: block;*/
+            /*margin: 10px 0;*/
+            margin-top:-25px;
+            text-align: center;
+        }
+
+        .mailconnect{
+            margin-top: 6%;
+        }
+
+        .passconnect{
+            margin-top: 6%;
+        }
+
+        .desc{
+            font-size: 20px;
+            color: gray;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        /*input[type="tel"],*/
+        input[type="email"],
+        input[type="password"] {
+            width: 80%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #1877f2;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        input[type="submit"] {
+            background-color: #1877f2;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-left: 41%;
+            margin-top: 2%;
+
+        }
+
+       /* input[type="submit"]:hover,
+        button:hover {
+            background-color: #45a049;
+        }*/
+
+        #connexion button {
+            background-color: #1877f2;
+        }
+
+        .mailconnect input, .passconnect input{
+            width: 95%;
+        }
+
+        .sendconnect{
+            margin-left: 60px;
+        }
+   
